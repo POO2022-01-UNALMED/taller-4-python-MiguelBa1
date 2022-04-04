@@ -8,7 +8,7 @@ class Grupo:
 
     grado = "Grado 12"
 
-    def __init__(self, grupo="grupo ordinado", asignaturas=None, estudiantes=[]):
+    def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes=[]):
         self._grupo = grupo
         self._asignaturas = asignaturas
         self.listadoAlumnos = estudiantes
